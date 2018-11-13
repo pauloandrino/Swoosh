@@ -1,10 +1,12 @@
-package paulo.com.swoosh
+package paulo.com.swoosh.Controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_league.*
+import paulo.com.swoosh.Utilities.EXTRA_LEAGUE
+import paulo.com.swoosh.R
 
 class LeagueActivity : BaseActivity() {
 
